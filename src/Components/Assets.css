@@ -1,0 +1,46 @@
+.asset__card{
+display: flex;
+margin-bottom: 20px;
+border-radius: 0px;
+}
+
+.asset__card__item{
+ display: flex;
+ flex-direction: column;
+ box-shadow:0 3px 5px 2px rgba(0,0,0,0.2);
+ transition: 0.3s;
+padding: 0 5px;
+}
+.asset__card__stats{
+display: flex;
+margin-top: 5px;
+margin-bottom: 7px;
+align-items: center;
+justify-content: space-between;
+max-width: 100px;
+}
+.asset__card__stats > .MuiSvgIcon-root  {
+    padding: 15px;
+    margin-left: 10px;
+}
+
+.asset__card__body{
+    padding: 5px;
+    background-color: white;
+    font-weight: 400;
+}
+.asset__card__body >h6{
+    font-weight: 400;
+    padding: 5px;
+    font-size:12px;
+}
+.asset__card__footer{
+   
+}
+.asset__card__footer > img{
+   height:20vh;
+   padding: 30px;
+   cursor: pointer;
+   width: auto;
+   object-fit: cover;
+}
